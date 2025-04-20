@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "data": "11/05",
+    "familia": {
+      "Manuela": "6 anos",
+      "Mateus": "2 anos"
+    },
+    "agencia": "Pimenta Viagens"
+  },
+  "direcao_estrategia": [
+    "Chegue por volta das 8h30. O parque abre às 9h.",
+    "Comece pelo **World Celebration e World Nature** (entrada), depois siga para **World Discovery**, e só depois vá para o **World Showcase** (que abre às 11h).",
+    "O percurso respeita a ordem real de caminhada, sem voltar ao ponto de origem."
+  ],
+  "atracoes": {
+    "World Celebration / World Nature (entrada do parque)": [
+      {
+        "nome": "Spaceship Earth",
+        "nivel": "verde",
+        "descricao": "passeio dentro da icônica bola do parque que mostra a história da comunicação desde as cavernas até o futuro"
+      },
+      {
+        "nome": "Journey into Imagination with Figment",
+        "nivel": "verde",
+        "descricao": "aventura divertida e criativa com o dragãozinho Figment, cheia de surpresas e efeitos sensoriais"
+      },
+      {
+        "nome": "Turtle Talk with Crush",
+        "nivel": "verde",
+        "descricao": "interação ao vivo com a tartaruga Crush do filme “Procurando Nemo”; as crianças podem fazer perguntas para ele"
+      },
+      {
+        "nome": "The Seas with Nemo & Friends",
+        "nivel": "amarelo",
+        "descricao": "passeio escuro e suave em carrinhos de concha que seguem os personagens do filme Nemo, ideal para Manu"
+      },
+      {
+        "nome": "Living with the Land",
+        "nivel": "verde",
+        "descricao": "tranquilo passeio de barco pelas estufas da Disney com agricultura sustentável e curiosidades sobre o meio ambiente"
+      },
+      {
+        "nome": "Soarin’ Around the World",
+        "nivel": "amarelo",
+        "descricao": "simulador de voo emocionante com imagens de paisagens famosas do mundo, com vento e aromas"
+      },
+      {
+        "nome": "Awesome Planet",
+        "nivel": "verde",
+        "descricao": "curta-metragem sobre o planeta Terra com narração envolvente e efeitos especiais no teatro do pavilhão The Land"
+      }
+    ],
+    "World Discovery": [
+      {
+        "nome": "Guardians of the Galaxy: Cosmic Rewind",
+        "nivel": "vermelho",
+        "descricao": "montanha-russa com giros suaves no escuro, sem looping, ao som de músicas clássicas; intensa para adultos"
+      },
+      {
+        "nome": "Creations Shop",
+        "nivel": "verde",
+        "descricao": "loja moderna e espaçosa com produtos Disney, roupas, brinquedos e souvenirs incríveis"
+      },
+      {
+        "nome": "Club Cool",
+        "nivel": "verde",
+        "descricao": "espaço divertido onde você pode experimentar refrigerantes de vários países do mundo, totalmente grátis"
+      }
+    ],
+    "World Showcase (ordem em sentido horário ao redor do lago)": [
+      {
+        "nome": "Frozen Ever After (Noruega)",
+        "nivel": "verde",
+        "descricao": "passeio de barco temático com Elsa, Anna e Olaf, com canções do filme e cenários encantadores"
+      },
+      {
+        "nome": "Encontro com Anna & Elsa",
+        "nivel": "verde",
+        "descricao": "encontro com as personagens em uma sala temática super fofa no pavilhão da Noruega"
+      },
+      {
+        "nome": "Gran Fiesta Tour (México)",
+        "nivel": "amarelo",
+        "descricao": "passeio leve e musical com Donald, Zé Carioca e Panchito em um barquinho pelo México animado"
+      },
+      {
+        "nome": "Remy’s Ratatouille Adventure (França)",
+        "nivel": "amarelo",
+        "descricao": "atração em 3D onde você é \"encolhido\" e corre pelos cenários do restaurante de Remy, com cheiros e movimentos"
+      },
+      {
+        "nome": "Kidcot Fun Stops",
+        "nivel": "verde",
+        "descricao": "mesas com atividades de colorir e carimbar passaportes em cada pavilhão do World Showcase, ideal para crianças"
+      },
+      {
+        "nome": "Encontros com personagens",
+        "nivel": "verde",
+        "descricao": "personagens clássicos espalhados pelos pavilhões: Alice, Bela, Mulan, Donald, Jasmine e outros"
+      },
+      {
+        "nome": "Shows culturais",
+        "nivel": "verde",
+        "descricao": "apresentações típicas ao vivo nos pavilhões: tambores japoneses, acrobatas chineses, músicos marroquinos, entre outros"
+      }
+    ]
+  },
+  "descanso_refeicao": {
+    "horario_sugerido": "12h",
+    "contexto": "Após o almoço, continue o percurso no sentido do lago para completar os pavilhões",
+    "opcoes": [
+      "Sunshine Seasons (rápido, no pavilhão The Land)",
+      "Regal Eagle Smokehouse (EUA) – churrasco americano",
+      "Les Halles Boulangerie (França) – sanduíches e doces incríveis"
+    ]
+  },
+  "alimentacao": {
+    "almoco": [
+      "Sunshine Seasons",
+      "Regal Eagle Smokehouse (EUA)",
+      "Les Halles Boulangerie (França)"
+    ],
+    "jantar": [
+      "Via Napoli (Itália)",
+      "Teppan Edo (Japão)",
+      "Spice Road Table (Marrocos)"
+    ],
+    "snacks": [
+      "Macaron Ice Cream Sandwich (França)",
+      "Funnel Cake (EUA)",
+      "Mochi e sorvete do Japão",
+      "Chocolate quente da Bélgica (se clima permitir)",
+      "Churros mexicanos e doces árabes (pavilhão do Marrocos)"
+    ],
+    "sobremesas": [
+      "Pipoca com balde refilável – compre cedo e use os refis ao longo do dia",
+      "Pretzel do Mickey",
+      "Cupcakes temáticos em vários pavilhões",
+      "Bolo mousse de framboesa no pavilhão da França"
+    ]
+  },
+  "servicos_dicas": {
+    "tap_water": "gratuita nos quick service (Sunshine Seasons, Regal Eagle)",
+    "banheiros": [
+      "The Land",
+      "entre Noruega e China",
+      "EUA",
+      "Marrocos",
+      "Reino Unido"
+    ],
+    "sombra": [
+      "pavilhão do Japão",
+      "Canada Far & Wide Theater",
+      "American Adventure"
+    ],
+    "fotos": [
+      "Com o globo Spaceship Earth ao fundo",
+      "Com personagens nos pavilhões",
+      "Na ponte entre França e Reino Unido ao pôr do sol"
+    ],
+    "extras": [
+      "Ponto de troca de **broche de Primeira Visita** ou **Feliz Aniversário** no Guest Relations",
+      "Experimentar todos os refrigerantes do Club Cool (italiano Beverly é famoso!)",
+      "Caça ao tesouro com prêmios temáticos em datas especiais (Pascoa, Natal)",
+      "App do parque ajuda a ver tempo de espera e localização dos personagens"
+    ]
+  },
+  "show_noturno": {
+    "nome": "Luminous: The Symphony of Us",
+    "horario": "21h",
+    "obs": "📍 Melhor ponto: entre os pavilhões do Japão e Itália",
+    "chegar": "20h15"
+  },
+  "assinatura": "PIMENTA VIAGENS – Explorando o Mundo com Magia e Organização!",
+  "experiencias": [
+    "Experimentar refrigerantes gratuitos do mundo no Club Cool",
+    "Caça ao Tesouro temática (ex: Figment ou Olaf) – disponível em datas especiais",
+    "Kidcot Fun Stops – atividades infantis em cada pavilhão",
+    "Ganhar broche de Primeira Visita no Guest Relations"
+  ],
+  "clima_dicas": [
+    "Prepare-se para longas caminhadas – o parque é extenso",
+    "Tênis confortável e protetor solar são indispensáveis",
+    "Hidrate-se constantemente, especialmente no World Showcase"
+  ],
+  "recomendacoes_parque": [
+    "Se possível, divida em dois dias para aproveitar bem os pavilhões e atrações",
+    "Aproveite o Club Cool e a Creations Shop logo pela manhã – menos filas"
+  ]
+}

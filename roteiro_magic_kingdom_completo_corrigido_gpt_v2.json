@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "data": "09/05",
+    "familia": {
+      "Manuela": "6 anos",
+      "Mateus": "2 anos"
+    },
+    "agencia": "Pimenta Viagens"
+  },
+  "direcao_estrategia": [
+    "Ao passar pelo castelo da Cinderela, siga para a **DIREITA** para começar por **Fantasyland**.",
+    "Em seguida, vá para **Tomorrowland**, depois faça a volta pelo parque passando por **Adventureland**, **Frontierland** e **Liberty Square**."
+  ],
+  "atracoes": {
+    "Fantasyland": [
+      { "nome": "Prince Charming Regal Carrousel", "nivel": "verde", "descricao": "carrossel clássico ao som de música encantada" },
+      { "nome": "The Many Adventures of Winnie the Pooh", "nivel": "verde", "descricao": "passeio leve pelo mundo do Ursinho Pooh" },
+      { "nome": "Mad Tea Party (xícara maluca)", "nivel": "verde", "descricao": "xícaras malucas giratórias" },
+      { "nome": "Seven Dwarfs Mine Train", "nivel": "amarelo", "descricao": "montanha-russa suave para Manu" },
+      { "nome": "Under the Sea", "nivel": "verde", "descricao": "passeio da Pequena Sereia" },
+      { "nome": "Ariel’s Grotto", "nivel": "verde", "descricao": "encontro com a Ariel" },
+      { "nome": "Enchanted Tales with Belle", "nivel": "verde", "descricao": "experiência com a princesa Belle" },
+      { "nome": "Dumbo the Flying Elephant", "nivel": "verde", "descricao": "voando com o Dumbo no céu do parque" },
+      { "nome": "Casey Jr. Splash 'N' Soak", "nivel": "verde", "descricao": "área para as crianças se refrescarem" },
+      { "nome": "“It’s a Small World”", "nivel": "verde", "descricao": "passeio musical de barco" },
+      { "nome": "Peter Pan’s Flight", "nivel": "amarelo", "descricao": "sobrevoo mágico por Londres com Peter Pan" },
+      { "nome": "Encontro com princesas (Princess Fairytale Hall)", "nivel": "verde", "descricao": "encontro com as princesas da Disney" }
+    ],
+    "Tomorrowland": [
+      { "nome": "Buzz Lightyear’s Space Ranger Spin", "nivel": "verde", "descricao": "jogo interativo com laser no espaço" },
+      { "nome": "Monsters, Inc. Laugh Floor", "nivel": "verde", "descricao": "show de comédia interativa com os monstros" },
+      { "nome": "PeopleMover", "nivel": "verde", "descricao": "passeio suspenso" },
+      { "nome": "TRON Lightcycle / Run", "nivel": "amarelo", "descricao": "montanha-russa rápida, sem looping (radical leve)" },
+      { "nome": "Space Mountain", "nivel": "vermelho", "descricao": "escuro e rápido (não recomendado)" }
+    ],
+    "Adventureland": [
+      { "nome": "Jungle Cruise", "nivel": "verde", "descricao": "passeio cômico em barco pela selva" },
+      { "nome": "The Magic Carpets of Aladdin", "nivel": "verde", "descricao": "voo sobre Agrabah com tapetes mágicos" },
+      { "nome": "Pirates of the Caribbean", "nivel": "amarelo", "descricao": "passeio escuro com barulhos e queda leve" },
+      { "nome": "Swiss Family Treehouse", "nivel": "verde", "descricao": "caminhada em árvore" }
+    ],
+    "Frontierland": [
+      { "nome": "Big Thunder Mountain Railroad", "nivel": "vermelho", "descricao": "montanha-russa em mina do velho oeste" },
+      { "nome": "Country Bear Jamboree", "nivel": "verde", "descricao": "show com ursos animatrônicos e música country" },
+      { "nome": "Tom Sawyer Island", "nivel": "verde", "descricao": "ilha com trilhas e pontes" }
+    ],
+    "Liberty Square": [
+      { "nome": "Haunted Mansion", "nivel": "amarelo", "descricao": "passeio assombrado com fantasmas divertidos" },
+      { "nome": "Liberty Belle Riverboat", "nivel": "verde", "descricao": "passeio tranquilo de barco a vapor" }
+    ]
+  },
+  "parada": {
+    "horario": "15h",
+    "duracao": "12–15 minutos",
+    "local": "Em frente ao castelo ou ao longo da Main Street",
+    "chegar": "14h30",
+    "dicas": ["Leve snacks e água, ótimo momento para descanso e banheiro"],
+    "personagens": ["Rapunzel", "Cinderela", "Bela", "Anna & Elsa", "dragão da Malévola e muitos outros!"]
+  },
+  "alimentacao": {
+    "almoco": [
+      "Pinocchio Village Haus (Fantasyland)",
+      "Cosmic Ray’s Starlight Café (Tomorrowland)"
+    ],
+    "jantar": [
+      "Pecos Bill (Frontierland)",
+      "Columbia Harbour House (Liberty Square)"
+    ],
+    "snacks": [
+      "Dole Whip (Adventureland)",
+      "Sorvete Mickey",
+      "Funnel Cake (Liberty Square)",
+      "Cinnamon Roll (Gaston's Tavern)"
+    ],
+    "sobremesas": [
+      "Pipoca com balde refilável – compre cedo e use os refis ao longo do dia",
+      "Pretzel do Mickey",
+      "Churros recheados (chocolate ou doce de leite)"
+    ]
+  },
+  "servicos_dicas": {
+    "tap_water": "gratuita nos quick service",
+    "banheiros": ["Fantasyland", "Tomorrowland", "Adventureland", "Liberty Square"],
+    "sombra": ["PeopleMover", "Monsters Inc.", "Country Bear"],
+    "fotos": ["Balão do Mickey", "Em frente ao castelo", "Com personagens: Buzz, princesas, piratas"],
+    "extras": [
+      "Comprar balde de pipoca logo cedo e usar os refis (mais barato!)",
+      "Levar capa de chuva ou roupa extra para atrações que molham",
+      "Usar pulseira de identificação para as crianças",
+      "Carregador portátil é essencial (ou alugar FuelRod nos parques)",
+      "Baixar o app dos parques para ver tempo de espera ao vivo",
+      "No centro da Main Street, perto da loja de doces, há um telefone antigo na parede que toca com conversa engraçada",
+      "Há cogumelos que mudam de cor perto da saída do Mad Tea Party – ótima surpresa para as crianças!"
+    ]
+  },
+  "show_noturno": {
+    "nome": "Happily Ever After",
+    "horario": "21h",
+    "chegar": "20h",
+    "obs": "- Chegar por volta das 20h para lugar bom"
+  },
+  "assinatura": "PIMENTA VIAGENS – Explorando com Encanto, Direção e Diversão!",
+  "experiencias": [
+    "Bibbidi Bobbidi Boutique – transformação em princesa com horário reservado (Fantasyland)",
+    "Encontro com personagens em Fantasyland – como a Bela, Ariel e Cinderela"
+  ],
+  "clima_dicas": [
+    "Use roupas leves e confortáveis",
+    "Leve um agasalho leve para a noite",
+    "Tênis confortável é essencial",
+    "Leve protetor solar e boné"
+  ],
+  "recomendacoes_parque": [
+    "Chegue cedo e vá direto nos brinquedos concorridos como Peter Pan e Mine Train"
+  ]
+}

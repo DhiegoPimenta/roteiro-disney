@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roteiro Disney – Pimenta Viagens</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: #fdfcff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #004080;
+      border-bottom: 2px solid #66b3ff;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+    h3 {
+      color: #003366;
+      margin-top: 30px;
+    }
+    .bloco {
+      background: #f4f8ff;
+      padding: 18px;
+      margin: 20px 0;
+      border-left: 5px solid #66b3ff;
+      border-radius: 6px;
+    }
+    .bloco h4 {
+      margin-top: 0;
+      color: #002b5c;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+    }
+    ul li {
+      margin-bottom: 6px;
+    }
+    .descricao {
+      margin-top: 5px;
+      font-size: 0.95rem;
+      color: #444;
+    }
+    .botoes-container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+    .botoes {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 0 20px;
+    }
+    .botoes button {
+      background: #004080;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .botoes button:hover {
+      background: #003366;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      padding: 30px;
+      background: #f0f4ff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1 id="titulo-parque">Roteiro Disney</h1>
+</header>
+
+<div class="container" id="conteudo">Carregando roteiro...</div>
+
+<div class="botoes-container">
+  <div class="botoes">
+    <button onclick="mudarPagina(-1)">⬅️ Anterior</button>
+    <button onclick="mudarPagina(1)">Próximo ➡️</button>
+  </div>
+</div>
+
+<footer>© 2025 Pimenta Viagens</footer>
+
+<script>
+  const roteiros = [
+    { nome: "Magic Kingdom", arquivo: "roteiro_magic_kingdom_completo_corrigido_gpt_v2.json" },
+    { nome: "EPCOT", arquivo: "roteiro_epcot_corrigido_formatado_gpt_v2.json" },
+    { nome: "Animal Kingdom", arquivo: "roteiro_animal_kingdom_corrigido_final_gpt_v2.json" },
+    { nome: "Hollywood Studios", arquivo: "roteiro_hollywood_gpt_v2.json" },
+    { nome: "Universal Studios - Island Of Adventures", arquivo: "roteiro_islands_corrigido_final_gpt_v2.json" }
+  ];
+
+  let paginaAtual = 0;
+  const icone = { verde: '🟢', amarelo: '🟡', vermelho: '🔴' };
+
+  function markdownToHTML(text) {
+    return (text || '').toString().replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  }
+
+  function bloco(titulo, conteudo) {
+    return `<div class='bloco'><h3>${titulo}</h3><div>${markdownToHTML(conteudo)}</div></div>`;
+  }
+
+  function lista(titulo, itens) {
+    if (!itens || !Array.isArray(itens) || itens.length === 0) return '';
+    return `<div class='bloco'><h3>${titulo}</h3><ul>${itens.map(i => `<li>${markdownToHTML(i)}</li>`).join('')}</ul></div>`;
+  }
+
+  function render(data) {
+    document.getElementById("titulo-parque").textContent = `${roteiros[paginaAtual].nome}`;
+    let html = `<h2>🧭 Estratégia</h2>`;
+    data.direcao_estrategia.forEach(e => html += bloco("Dica", e));
+
+    html += `<h2>🎢 Atrações</h2>`;
+    for (const area in data.atracoes) {
+      html += `<h3>${area}</h3>`;
+      data.atracoes[area].forEach(a => {
+        html += `<div class='bloco'><h4>${icone[a.nivel]} ${a.nome}</h4>
+        ${a.descricao ? `<div class='descricao'>📝 ${markdownToHTML(a.descricao)}</div>` : ''}</div>`;
+      });
+    }
+
+    if (data.parada) {
+      const p = data.parada;
+      html += `<h2>🎉 Parada</h2>`;
+      html += bloco("Parada", `
+        <ul>
+          <li><strong>Horário:</strong> ${p.horario || '—'}</li>
+          <li><strong>Local:</strong> ${p.local || '—'}</li>
+          <li><strong>Chegue às:</strong> ${p.chegar || '—'}</li>
+          <li><strong>Duração:</strong> ${p.duracao || '—'}</li>
+          <li><strong>Dicas:</strong> ${(p.dicas || []).map(markdownToHTML).join(', ') || '—'}</li>
+          <li><strong>Personagens:</strong> ${(p.personagens || []).join(', ') || '—'}</li>
+        </ul>
+      `);
+    }
+
+    const descanso = data.descanso_refeicao;
+    if (descanso && (descanso.horario_sugerido || descanso.contexto || descanso.opcoes?.length)) {
+      html += `<h2>⏸️ Descanso & Almoço</h2><div class="bloco">`;
+      if (descanso.horario_sugerido) html += `<p><strong>🕛 Horário sugerido:</strong> ${descanso.horario_sugerido}</p>`;
+      if (descanso.contexto) html += `<p><strong>📍 Contexto:</strong> ${markdownToHTML(descanso.contexto)}</p>`;
+      if (descanso.opcoes?.length) {
+        html += `<p><strong>🍴 Opções:</strong></p><ul>`;
+        descanso.opcoes.forEach(o => html += `<li>${markdownToHTML(o)}</li>`);
+        html += `</ul>`;
+      }
+      html += `</div>`;
+    }
+
+    html += `<h2>🍽️ Alimentação</h2>`;
+    html += lista("Almoço", data.alimentacao?.almoco);
+    html += lista("Jantar", data.alimentacao?.jantar);
+    html += lista("Snacks", data.alimentacao?.snacks);
+    html += lista("Sobremesas", data.alimentacao?.sobremesas);
+
+    const serv = data.servicos_dicas;
+    if (serv) {
+      html += `<h2>🛠️ Serviços</h2>`;
+      if (serv.tap_water) html += lista("Tap Water", [serv.tap_water]);
+      html += lista("Banheiros", serv.banheiros);
+      html += lista("Sombra", serv.sombra);
+      html += lista("Fotos", serv.fotos);
+      html += lista("Extras", serv.extras);
+    }
+
+    if (data.experiencias?.length) {
+      html += `<h2>✨ Experiências Especiais</h2>`;
+      html += lista("Destaques", data.experiencias);
+    }
+
+    if (data.clima_dicas?.length) {
+      html += `<h2>☀️ Clima & Vestuário</h2>`;
+      html += lista("Dicas", data.clima_dicas);
+    }
+
+    if (data.recomendacoes?.length) {
+      html += `<h2>📌 Recomendações Finais</h2>`;
+      html += lista("Importante lembrar", data.recomendacoes);
+    }
+
+    if (data.show_noturno) {
+      html += `<h2>🎆 Show Noturno</h2>`;
+      html += bloco(data.show_noturno.nome || "Show Noturno", `
+        <ul>
+          <li><strong>Horário:</strong> ${data.show_noturno.horario || '—'}</li>
+          <li><strong>Chegue às:</strong> ${data.show_noturno.chegar || '—'}</li>
+          <li>${markdownToHTML(data.show_noturno.obs || '')}</li>
+        </ul>
+      `);
+    }
+
+    document.getElementById("conteudo").innerHTML = html;
+  }
+
+  function mudarPagina(direcao) {
+    paginaAtual = (paginaAtual + direcao + roteiros.length) % roteiros.length;
+    carregarPagina();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function carregarPagina() {
+    const roteiro = roteiros[paginaAtual];
+    fetch(roteiro.arquivo)
+      .then(res => res.json())
+      .then(render)
+      .catch(() => {
+        document.getElementById("conteudo").innerHTML = "Erro ao carregar o roteiro.";
+      });
+  }
+
+  // Swipe detection (touch e mouse)
+  let startX = 0;
+  document.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+  document.addEventListener('touchend', e => {
+    const delta = e.changedTouches[0].clientX - startX;
+    if (Math.abs(delta) > 50) mudarPagina(delta < 0 ? 1 : -1);
+  });
+  document.addEventListener('mousedown', e => startX = e.clientX);
+  document.addEventListener('mouseup', e => {
+    const delta = e.clientX - startX;
+    if (Math.abs(delta) > 50) mudarPagina(delta < 0 ? 1 : -1);
+  });
+
+  carregarPagina();
+</script>
+</body>
+</html>

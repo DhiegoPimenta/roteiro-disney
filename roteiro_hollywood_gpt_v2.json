@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "data": "13/05",
+    "familia": {
+      "Manuela": "6 anos",
+      "Mateus": "2 anos"
+    },
+    "agencia": "Pimenta Viagens"
+  },
+  "direcao_estrategia": [
+    "Chegue até as 8h30. O parque abre às 9h.",
+    "Comece por **Toy Story Land** (lado direito após a entrada).",
+    "Siga para a área central (Mickey & Minnie), depois vá em direção a Star Wars, Echo Lake e Sunset Boulevard.",
+    "A ordem abaixo evita caminhadas desnecessárias."
+  ],
+  "atracoes": {
+    "Toy Story Land": [
+      {
+        "nome": "Alien Swirling Saucers",
+        "nivel": "verde",
+        "descricao": "ideal para os dois"
+      },
+      {
+        "nome": "Toy Story Mania",
+        "nivel": "amarelo",
+        "descricao": "divertido, com óculos 3D"
+      },
+      {
+        "nome": "Slinky Dog Dash",
+        "nivel": "vermelho",
+        "descricao": "montanha-russa moderada, pode ser avaliada pra Manu"
+      },
+      {
+        "nome": "Encontro com Woody, Buzz e Jessie",
+        "nivel": "verde",
+        "descricao": "encontro para fotos com personagens amados de Toy Story"
+      }
+    ],
+    "Animation Courtyard e Centro": [
+      {
+        "nome": "Disney Junior Dance Party",
+        "nivel": "verde",
+        "descricao": "ótimo pra Mateus"
+      },
+      {
+        "nome": "Encontro com Olaf (com ar-condicionado)",
+        "nivel": "verde",
+        "descricao": "sessão de fotos com o boneco de neve do Frozen em ambiente refrigerado"
+      },
+      {
+        "nome": "Encontro com personagens do Disney Jr.",
+        "nivel": "verde",
+        "descricao": "personagens como Vampirina, Timão e outros para fotos e interações"
+      },
+      {
+        "nome": "Mickey & Minnie’s Runaway Railway",
+        "nivel": "verde",
+        "descricao": "passeio mágico em carrinho"
+      },
+      {
+        "nome": "Encontro com Mickey e Minnie em roupas especiais",
+        "nivel": "verde",
+        "descricao": "foto com os anfitriões em figurino temático exclusivo"
+      }
+    ],
+    "Echo Lake e Star Wars: Galaxy’s Edge": [
+      {
+        "nome": "For the First Time in Forever: A Frozen Sing-Along Celebration",
+        "nivel": "verde",
+        "descricao": "show com músicas do Frozen e interação com o público"
+      },
+      {
+        "nome": "Indiana Jones Epic Stunt Spectacular",
+        "nivel": "amarelo",
+        "descricao": "show com ação e explosões"
+      },
+      {
+        "nome": "Star Tours",
+        "nivel": "amarelo",
+        "descricao": "simulador 3D de nave (pode sacudir)"
+      },
+      {
+        "nome": "Rise of the Resistance",
+        "nivel": "vermelho",
+        "descricao": "intenso, longo e imersivo"
+      },
+      {
+        "nome": "Millennium Falcon: Smugglers Run",
+        "nivel": "amarelo",
+        "descricao": "voo simulado (Manu pode gostar)"
+      },
+      {
+        "nome": "Encontro com Chewbacca, Kylo Ren, Stormtroopers",
+        "nivel": "verde",
+        "descricao": "personagens da saga em áreas temáticas para fotos"
+      }
+    ],
+    "Sunset Boulevard": [
+      {
+        "nome": "Beauty and the Beast Live on Stage",
+        "nivel": "amarelo",
+        "descricao": "musical encantador"
+      },
+      {
+        "nome": "Lightning McQueen’s Racing Academy",
+        "nivel": "verde",
+        "descricao": "show interativo"
+      },
+      {
+        "nome": "Tower of Terror",
+        "nivel": "vermelho",
+        "descricao": "elevador com quedas (não recomendado)"
+      }
+    ]
+  },
+  "descanso_refeicao": {
+    "horario_sugerido": "🕛 Sugestão: entre 12h e 13h",
+    "contexto": "Hora ideal para pausa com sombra e ar-condicionado.",
+    "opcoes": [
+      "Woody’s Lunch Box – pratos infantis e criativos",
+      "ABC Commissary – ambiente interno e fresco",
+      "Backlot Express – bom para famílias com crianças pequenas"
+    ]
+  },
+  "alimentacao": {
+    "almoco": [
+      "Woody’s Lunch Box – pratos infantis e criativos",
+      "ABC Commissary – ambiente interno e fresco",
+      "Backlot Express – bom para famílias com crianças pequenas"
+    ],
+    "jantar": [
+      "PizzeRizzo – pizza e espaço amplo",
+      "50’s Prime Time Café – restaurante com tema dos anos 50"
+    ],
+    "snacks": [
+      "Sorvete Mickey",
+      "Funnel Cake no Echo Lake",
+      "Churros no Woody’s Lunch Box",
+      "Blue Milk e Green Milk em Galaxy’s Edge",
+      "Wookiee Cookie (Backlot Express)"
+    ],
+    "sobremesas": [
+      "Pipoca com balde refilável – compre cedo e use os refis ao longo do dia",
+      "Pretzel do Mickey",
+      "Churros recheados (chocolate ou doce de leite)",
+      "Cupcake temático do BB-8",
+      "Doces coloridos no mercado de Tatooine"
+    ]
+  },
+  "servicos_dicas": {
+    "tap_water": "gratuita nos restaurantes quick service – peça no balcão",
+    "banheiros": [
+      "Toy Story Land",
+      "Echo Lake",
+      "Animation Courtyard"
+    ],
+    "sombra": [
+      "Disney Jr Dance Party",
+      "Star Tours",
+      "ABC Commissary",
+      "Frozen Sing-Along"
+    ],
+    "fotos": [
+      "Com BB-8 e Chewbacca",
+      "Em frente ao Teatro Chinês (entrada do parque)",
+      "Com o carro do Lightning McQueen"
+    ],
+    "extras": [
+      "Ponto de broche gratuito (Guest Relations)",
+      "Treinamento Jedi (precisa agendar cedo)",
+      "Use roupas temáticas para fotos incríveis",
+      "Levar capa de chuva ou roupa extra para os brinquedos que molham",
+      "Baixar o app do parque para ver o tempo de espera"
+    ]
+  },
+  "show_noturno": {
+    "nome": "Wonderful World of Animation",
+    "horario": "21h",
+    "obs": "📍 Onde ver: em frente ao Teatro Chinês",
+    "chegar": "20h15"
+  },
+  "assinatura": "PIMENTA VIAGENS – Roteiro com ação, mágica e organização!",
+  "experiencias": [
+    "Treinamento Jedi – crianças participam com sabre de luz (precisa agendar)",
+    "Droid Depot e Savi’s Workshop – construção de droides e sabres de luz",
+    "Encontro com personagens de Star Wars e Toy Story",
+    "Compre o copo souvenir da Coca-Cola em forma de granada",
+    "Participação interativa nos shows do Frozen e Indiana Jones"
+  ],
+  "clima_dicas": [
+    "Use roupas temáticas se quiser tirar boas fotos com personagens",
+    "Leve um casaco leve para atrações com ar-condicionado forte",
+    "Tênis confortável e protetor solar são indispensáveis"
+  ],
+  "recomendacoes_parque": [
+    "Chegue cedo em Star Wars: Galaxy’s Edge para evitar filas no Rise of the Resistance",
+    "Reserve tempo para fotos – há muitas oportunidades em todas as áreas"
+  ]
+}

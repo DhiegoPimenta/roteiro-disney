@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "data": "17/05",
+    "familia": {
+      "Manuela": "6 anos",
+      "Mateus": "2 anos"
+    },
+    "agencia": "Pimenta Viagens"
+  },
+  "atracoes": {
+    "Seuss Landing": [
+      {
+        "nome": "The Cat in the Hat",
+        "nivel": "verde",
+        "descricao": "carrinho giratório divertido"
+      },
+      {
+        "nome": "One Fish, Two Fish",
+        "nivel": "verde",
+        "descricao": "voador com água"
+      },
+      {
+        "nome": "Caro-Seuss-el",
+        "nivel": "verde",
+        "descricao": "carrossel temático"
+      },
+      {
+        "nome": "If I Ran the Zoo",
+        "nivel": "verde",
+        "descricao": "playground interativo e refrescante"
+      }
+    ],
+    "The Lost Continent": [
+      {
+        "nome": "Poseidon’s Fury",
+        "nivel": "amarelo",
+        "descricao": "caminhada com efeitos especiais, pode assustar"
+      },
+      {
+        "nome": "Mythos",
+        "nivel": "verde",
+        "descricao": "restaurante temático com ótimo ambiente"
+      }
+    ],
+    "The Wizarding World of Harry Potter – Hogsmeade": [
+      {
+        "nome": "Flight of the Hippogriff",
+        "nivel": "amarelo",
+        "descricao": "montanha-russa suave para Manu"
+      },
+      {
+        "nome": "Harry Potter and the Forbidden Journey",
+        "nivel": "vermelho",
+        "descricao": "simulador escuro e intenso (🟥 leve: o usuário já fez e gostou)"
+      },
+      {
+        "nome": "Hagrid’s Magical Creatures",
+        "nivel": "vermelho",
+        "descricao": "rápida, com quedas e movimento reverso (avaliar antes)"
+      },
+      {
+        "nome": "Encontro com o Expresso de Hogwarts para fotos",
+        "nivel": "verde"
+      },
+      {
+        "nome": "Butterbeer",
+        "nivel": "verde",
+        "descricao": "versão frozen é a mais popular"
+      }
+    ],
+    "Jurassic Park": [
+      {
+        "nome": "Camp Jurassic",
+        "nivel": "verde",
+        "descricao": "área interativa com redes e cavernas"
+      },
+      {
+        "nome": "Pteranodon Flyers",
+        "nivel": "verde",
+        "descricao": "apenas para Manu (altura mínima), não permite adulto sem criança"
+      },
+      {
+        "nome": "Jurassic Park Discovery Center",
+        "nivel": "amarelo",
+        "descricao": "área educativa"
+      },
+      {
+        "nome": "Jurassic Park River Adventure",
+        "nivel": "vermelho",
+        "descricao": "queda grande e molha muito"
+      }
+    ],
+    "Toon Lagoon": [
+      {
+        "nome": "Me Ship, The Olive",
+        "nivel": "amarelo",
+        "descricao": "navio com canhões de água para brincar"
+      },
+      {
+        "nome": "Popeye & Bluto’s Bilge-Rat Barges",
+        "nivel": "vermelho",
+        "descricao": "boia giratória que molha demais"
+      },
+      {
+        "nome": "Dudley Do-Right’s Ripsaw Falls",
+        "nivel": "vermelho",
+        "descricao": "montanha-russa aquática com queda radical"
+      }
+    ],
+    "Marvel Super Hero Island": [
+      {
+        "nome": "Storm Force Accelatron",
+        "nivel": "amarelo",
+        "descricao": "xícara maluca com tema Marvel"
+      },
+      {
+        "nome": "The Amazing Adventures of Spider-Man",
+        "nivel": "vermelho",
+        "descricao": "simulador 3D com ação (🟥 leve: o usuário já fez e gostou)"
+      },
+      {
+        "nome": "The Incredible Hulk Coaster",
+        "nivel": "vermelho",
+        "descricao": "montanha-russa extrema (evitar)"
+      },
+      {
+        "nome": "Encontro com personagens: Spider-Man, Capitão América, Wolverine",
+        "nivel": "verde"
+      }
+    ]
+  },
+  "direcao_estrategia": [
+    "Chegue até as 8h30 (abertura às 9h).",
+    "Inicie o dia pela direita (Seuss Landing), depois siga sentido horário passando por The Lost Continent, Hogsmeade (Harry Potter), Jurassic Park, Toon Lagoon e finalize em Marvel Island."
+  ],
+  "descanso_refeicao": {
+    "horario_sugerido": "12h – 13h",
+    "contexto": "Hora de relaxar! Aproveite a pausa para comer, descansar à sombra e repor as energias para a segunda metade do dia.",
+    "opcoes": [
+      "Mythos Restaurant (The Lost Continent) – culinária grega e mediterrânea com ambiente temático de caverna",
+      "Three Broomsticks (Hogsmeade) – pratos britânicos clássicos e temática do Harry Potter",
+      "Thunder Falls Terrace (Jurassic Park) – grelhados e área coberta com vista dos barcos"
+    ]
+  },
+  "alimentacao": {
+    "almoco": [
+      "Mythos Restaurant (The Lost Continent)",
+      "Three Broomsticks (Hogsmeade)",
+      "Thunder Falls Terrace (Jurassic Park)"
+    ],
+    "jantar": [
+      "Burger Digs (Jurassic Park)",
+      "Comic Strip Café (Toon Lagoon) – lanches, massas e saladas"
+    ],
+    "snacks": [
+      "Butterbeer (Frozen e quente) – Hogsmeade",
+      "Sorvete da Florean Fortescue’s – sabores como maçã-verde, caramelo e morango com amendoim",
+      "Coxinha de peru gigante (Jurassic Park)",
+      "Biscoito de sapo de chocolate (Hogsmeade)",
+      "Balas de Feijão de Todos os Sabores (Honeydukes)"
+    ],
+    "sobremesas": [
+      "Sorvete de manga e baunilha (Seuss Landing)",
+      "Milkshake do Toothsome Chocolate Emporium (CityWalk) – com cobertura de brownie ou cookie",
+      "Cupcakes temáticos na loja da Marvel Island"
+    ]
+  },
+  "servicos_dicas": {
+    "tap_water": "Gratuita nos restaurantes quick service – basta pedir no balcão",
+    "banheiros": [
+      "Seuss Landing",
+      "Jurassic Park",
+      "Toon Lagoon",
+      "Hogsmeade"
+    ],
+    "sombra": [
+      "Discovery Center",
+      "Mythos",
+      "área coberta no Comic Strip Café"
+    ],
+    "fotos": [
+      "Com o Hulk ao fundo (entrada da montanha-russa)",
+      "Encontro com super-heróis (Marvel Island)",
+      "Expresso de Hogwarts (Hogsmeade)",
+      "Fonte do Toon Lagoon com letreiros engraçados",
+      "Mural Daily Bugle com pose de super-herói"
+    ],
+    "extras": [
+      "Ponto de troca de **broche gratuito** no Guest Services – peça o de 'First Visit'",
+      "Levar capa de chuva ou troca de roupa – atrações aquáticas molham muito",
+      "Comprar balde de pipoca logo cedo e usar os refis (válido o dia todo)",
+      "Alugar armário para mochilas antes de atrações que molham",
+      "Usar pulseira de identificação para as crianças",
+      "Baixar o app do Universal Orlando para filas, mapas e Mobile Order",
+      "Carregador portátil é essencial – ou alugue um FuelRod no parque"
+    ]
+  },
+  "show_noturno": {
+    "nome": "Nighttime Lights at Hogwarts Castle",
+    "horario": "20h",
+    "chegar": "19h40",
+    "obs": "📍 Melhor ponto: em frente ao castelo de Hogwarts, ao lado da ponte"
+  },
+  "assinatura": "PIMENTA VIAGENS – Com emoção, planejamento e diversão no parque!",
+  "experiencias": [
+    "Varinhas interativas em Hogsmeade – faça magia nas vitrines marcadas",
+    "Parquinho d’água escondido atrás do Popeye – refrescante para crianças",
+    "Experiência imersiva dentro de Honeydukes e Ollivanders",
+    "Encontro com super-heróis: Spider-Man, Capitão América e Wolverine para fotos",
+    "Desafie os jatos d’água na ponte entre Jurassic Park e Toon Lagoon",
+    "Toothsome (CityWalk): milkshakes gigantes com decorações absurdas"
+  ],
+  "clima_dicas": [
+    "Use roupa confortável e calçado que seque rápido",
+    "Capa de chuva ou troca de roupa são obrigatórias aqui!",
+    "Protetor solar, boné, óculos escuros e toalha pequena ajudam muito",
+    "Evite mochila pesada, há armários gratuitos em atrações como Hulk e River Adventure"
+  ],
+  "recomendacoes_parque": [
+    "Chegue cedo para ir direto nas atrações mais concorridas (Hagrid’s, Spider-Man)",
+    "Evite almoçar nos horários de pico (entre 12h30 e 13h30)",
+    "Tire fotos nas fachadas das lojas da Marvel e na entrada do Jurassic Park",
+    "Use a ponte de Jurassic Park como ponto secreto para ver quedas de barco"
+  ]
+}

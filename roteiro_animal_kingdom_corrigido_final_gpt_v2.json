@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "data": "15/05",
+    "familia": {
+      "Manuela": "6 anos",
+      "Mateus": "2 anos"
+    },
+    "agencia": "Pimenta Viagens"
+  },
+  "direcao_estrategia": [
+    "Chegue até 8h para pegar o parque ainda fresco e os animais ativos.",
+    "Comece pela **área da África**, seguindo sentido horário para Ásia, Dinoland e Pandora por último.",
+    "A ordem respeita o percurso natural do parque, evitando voltas."
+  ],
+  "atracoes": {
+    "África": [
+      {
+        "nome": "Kilimanjaro Safaris",
+        "nivel": "verde",
+        "descricao": "passeio de jipe por savanas africanas com animais reais e ativos pela manhã"
+      },
+      {
+        "nome": "Festival of the Lion King",
+        "nivel": "verde",
+        "descricao": "espetáculo musical com acrobacias, canto ao vivo e personagens do filme"
+      },
+      {
+        "nome": "Gorilla Falls Exploration Trail",
+        "nivel": "amarelo",
+        "descricao": "trilha onde se observa gorilas, hipopótamos e aves tropicais"
+      },
+      {
+        "nome": "Tam Tam Drummers of Harambe",
+        "nivel": "verde",
+        "descricao": "batuque africano ao vivo – as crianças costumam dançar junto!"
+      }
+    ],
+    "Ásia": [
+      {
+        "nome": "Feathered Friends in Flight",
+        "nivel": "amarelo",
+        "descricao": "show com aves treinadas que voam sobre o público"
+      },
+      {
+        "nome": "Maharajah Jungle Trek",
+        "nivel": "amarelo",
+        "descricao": "trilha temática com tigres, morcegos e jardins exóticos"
+      },
+      {
+        "nome": "Expedition Everest",
+        "nivel": "vermelho",
+        "descricao": "montanha-russa veloz com subidas, quedas e trechos no escuro e reverso"
+      },
+      {
+        "nome": "Kali River Rapids",
+        "nivel": "vermelho",
+        "descricao": "atração aquática radical – molha MUITO"
+      }
+    ],
+    "Dinoland U.S.A.": [
+      {
+        "nome": "TriceraTop Spin",
+        "nivel": "verde",
+        "descricao": "brinquedo giratório com dinossauros voadores, no estilo Dumbo"
+      },
+      {
+        "nome": "The Boneyard",
+        "nivel": "amarelo",
+        "descricao": "playground com escavações e fósseis, ideal para crianças pequenas"
+      },
+      {
+        "nome": "Meandros com personagens com roupa de explorador",
+        "nivel": "verde",
+        "descricao": "ótimo para fotos e interação com as crianças"
+      }
+    ],
+    "Discovery Island": [
+      {
+        "nome": "It’s Tough to Be a Bug",
+        "nivel": "verde",
+        "descricao": "show 3D com efeitos físicos; pode assustar crianças pequenas como Mateus"
+      },
+      {
+        "nome": "Animal Encounters",
+        "nivel": "verde",
+        "descricao": "pequenas trilhas com aves e animais exóticos"
+      },
+      {
+        "nome": "Foto oficial com a Árvore da Vida",
+        "nivel": "verde",
+        "descricao": "ponto tradicional para registro em família"
+      },
+      {
+        "nome": "Wilderness Explorers",
+        "nivel": "verde",
+        "descricao": "atividade interativa com adesivos e missões educativas para crianças"
+      }
+    ],
+    "Pandora – The World of Avatar": [
+      {
+        "nome": "Na’vi River Journey",
+        "nivel": "verde",
+        "descricao": "passeio de barco com efeitos de luz e som, tranquilo e relaxante"
+      },
+      {
+        "nome": "Flight of Passage",
+        "nivel": "vermelho",
+        "descricao": "simulador de voo em banshee com tela gigante e movimentos intensos (sem looping)"
+      }
+    ]
+  },
+  "descanso_refeicao": {
+    "horario_sugerido": "Sugestão: entre 12h e 13h",
+    "contexto": "Após as trilhas e atrações intensas, é ideal uma pausa com sombra e alimentação leve.",
+    "opcoes": [
+      "Flame Tree Barbecue – sombra e vista para o lago, carnes grelhadas",
+      "Restaurantosaurus – hambúrgueres e nuggets, ambiente infantil",
+      "Satu’li Canteen – opções inspiradas no universo Avatar, mais tranquilas"
+    ]
+  },
+  "alimentacao": {
+    "almoco": [
+      "Flame Tree Barbecue – sombra e vista para o lago, carnes grelhadas",
+      "Restaurantosaurus – hambúrgueres e nuggets, ambiente infantil",
+      "Satu’li Canteen – opções inspiradas no universo Avatar, mais tranquilas"
+    ],
+    "jantar": [
+      "Yak & Yeti Restaurant – cozinha asiática variada e ambiente agradável",
+      "Tiffins Restaurant – ideal para adultos que querem uma pausa gastronômica com pratos exóticos"
+    ],
+    "snacks": [
+      "Pongu Lumpia – rolinho de abacaxi com cream cheese (Pandora)",
+      "Sorvete de casquinha – disponível na Ásia",
+      "Pretzel gigante – Discovery Island",
+      "Dole Whip – refrescante e frutado, ideal em dias quentes"
+    ],
+    "sobremesas": [
+      "Pipoca com balde refilável – compre cedo e use os refis ao longo do dia",
+      "Mousse de blueberry (Pandora – Satu’li)",
+      "Churros recheados (chocolate ou doce de leite)",
+      "Cupcakes temáticos de safári"
+    ]
+  },
+  "servicos_dicas": {
+    "tap_water": "gratuita nos quick services (Satu’li, Restaurantosaurus)",
+    "banheiros": [
+      "Discovery Island",
+      "África (próximo ao Kilimanjaro)",
+      "Pandora",
+      "Dinoland"
+    ],
+    "sombra": [
+      "Ao redor da Árvore da Vida",
+      "área externa do Flame Tree Barbecue",
+      "Yak & Yeti Local Foods Café"
+    ],
+    "fotos": [
+      "Wilderness Explorers",
+      "Encontro com Mickey e Minnie com trajes de safári",
+      "Trilhas e mirantes da Tree of Life",
+      "Foto noturna em Pandora com iluminação bioluminescente"
+    ],
+    "extras": [
+      "Ponto de troca de **broche gratuito** de 'Primeira visita' no Guest Relations",
+      "Comprar balde de pipoca logo cedo e usar os refis (mais barato!)",
+      "Levar capa de chuva ou roupa extra para atrações que molham",
+      "Usar pulseira de identificação para as crianças",
+      "Carregador portátil é essencial (ou alugar FuelRod nos parques)",
+      "Baixar o app dos parques para ver tempo de espera ao vivo"
+    ]
+  },
+  "show_noturno": {
+    "nome": "Iluminação Bioluminescente em Pandora",
+    "horario": "Após o pôr do sol",
+    "chegar": "",
+    "obs": "À noite, a área de Pandora ganha vida com luzes bioluminescentes. Ótimo para fotos e passeio tranquilo."
+  },
+  "assinatura": "PIMENTA VIAGENS – Onde até os animais entram no roteiro!",
+  "experiencias": [
+    "Wilderness Explorers – caça interativa com missões pelo parque",
+    "Encontro com personagens como Pocahontas, Dug e Russell",
+    "Tambores interativos em Harambe Village",
+    "Tire fotos com molduras temáticas e pontos escondidos ao redor da Árvore da Vida",
+    "Procure os animais esculpidos nas raízes da árvore (são mais de 300!)"
+  ],
+  "clima_dicas": [
+    "O parque é mais úmido e arborizado – leve repelente",
+    "Roupas leves, boné e protetor solar são essenciais",
+    "Tênis respirável e confortável para trilhas e caminhadas"
+  ],
+  "recomendacoes_parque": [
+    "Muito calor – use sombra, leve garrafa de água e explore o Discovery Island Trails",
+    "Comece pelas atrações com animais pela manhã – eles ficam mais ativos"
+  ]
+}
