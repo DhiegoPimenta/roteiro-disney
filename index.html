@@ -94,13 +94,40 @@
       background: #f0f4ff;
       margin-top: 40px;
     }
+    nav {
+      background: #003366;
+      padding: 12px 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #0055aa;
+    }
   </style>
 </head>
 <body>
 <header>
   <h1 id="titulo-parque">Roteiro Disney</h1>
 </header>
-
+<nav style="margin-top: 20px;">
+  <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🎢 Roteiros por Parque</a>
+  <a href="roteiro.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">📅 Roteiro da Viagem</a>
+  <a href="compras.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🛍️ Guia de Compras</a>
+</nav>
 <div class="container" id="conteudo">Carregando roteiro...</div>
 
 <div class="botoes-container">
