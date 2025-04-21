@@ -73,50 +73,52 @@
       background: #f0f4ff;
       margin-top: 40px;
     }
-     nav {
-    background: #003366;
-    padding: 10px 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    white-space: nowrap;
-  }
-
-  nav::-webkit-scrollbar {
-    display: none; /* oculta a barra de rolagem no iPhone */
-  }
-
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.9rem;
-    padding: 8px 12px;
-    border-radius: 6px;
-    background-color: #004c99;
-    transition: background 0.3s ease;
-    flex-shrink: 0;
-  }
-
-  nav a:hover {
-    background-color: #005bb5;
-  }
-
-  @media (max-width: 600px) {
+    nav {
+      background: #003366;
+      padding: 12px 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
     nav a {
-      font-size: 0.8rem;
-      padding: 7px 10px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
     }
- 
+    nav a:hover {
+      background-color: #0055aa;
     }
+    .botao-personagens {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: #e91e63;
+    color: white;
+    font-size: 1.4rem;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  .botao-personagens:hover {
+    background-color: #c2185b;
+    transform: scale(1.08);
+  }
+
   </style>
 </head>
 <body>
@@ -128,9 +130,9 @@
 </header>
 
 <nav style="margin-top: 20px;">
-    <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🎢 Parque</a>
+    <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🎢 Roteiros por Parque</a>
     <a href="roteiro.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">📅 Roteiro da Viagem</a>
-    <a href="compras.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🛍️ Compras</a>
+    <a href="compras.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">🛍️ Guia de Compras</a>
   </nav>
 
 <div class="container" id="conteudo">
@@ -282,5 +284,6 @@
 <footer>
   © 2025 Pimenta Viagens – Explorando com Encanto, Direção e Diversão!
 </footer>
+<a href="personagems.html" class="botao-personagens" title="Ver guia de personagens">🧚‍♀️</a>
 </body>
 </html>
